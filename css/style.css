@@ -66,3 +66,19 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+
+@media screen and (max-width:600px) {
+    .lang{
+        width: 90%;
+    }
+    .lang .lang-icon{
+        width: 80%;
+    }
+    #intro h1{
+        font-size: 28px;
+    }
+    #intro p{
+        font-size: 16px;
+    }
+}
